@@ -1,7 +1,7 @@
 # add-twitter-acconut
 inspired by eduweb.pl - React Course
 
-this is a app where we can add a twitter account by Name, Twitter Link, Image and little discription about profile
+this is a app where we can add a twitter account, some articles and private notes 
 
 Technologies:
 
