@@ -21,4 +21,4 @@ Open http://localhost:3000 to view it in the browser.
 
 you can also see the project on website:
 
-      https://mystifying-banach-3ae3c2.netlify.app
+https://mystifying-banach-3ae3c2.netlify.app
