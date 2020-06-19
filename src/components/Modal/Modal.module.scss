@@ -1,0 +1,60 @@
+.wrapper {
+    padding: 50px 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 60vw;
+    height: 70vh;
+    background-color: white;
+    box-shadow: 0 10px 50px -19px rgba(#1e58ff, .4);
+    position: fixed;
+}
+
+.closeButton {
+    width: 20px;
+    height: 20px;
+    background: #1e58ff;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: 0.5s;
+
+    &::before,
+    &::after {
+        content: '';
+        width: 12px;
+        height: 2px;
+        position: absolute;
+        background: white;
+        display: block;
+        top: 45%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        transform-origin: 50%;
+        transition: 0.5s;
+    }
+
+    &::before {
+        transform: rotate(45deg);
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+    }
+}
+
+.closeButton:hover {
+    background: white;
+
+     &::before,
+     &::after {
+         background: #1e58ff;
+     }
+}
